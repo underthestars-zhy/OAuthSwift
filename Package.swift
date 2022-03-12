@@ -39,6 +39,6 @@ let package = Package(
 )
 
 #if os(Linux)
-package.dependencies.append(.package(url: "https://github.com/apple/swift-crypto.git", from: "1.0.0"))
+package.dependencies.append(.package(url: "https://github.com/apple/swift-crypto.git", from: "1.1.7"))
 package.targets[0].dependencies.append("Crypto")
 #endif
